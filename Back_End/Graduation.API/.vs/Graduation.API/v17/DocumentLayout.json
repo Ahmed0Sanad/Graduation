@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Graduation\\Back_End\\Graduation.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{733E8DF9-992D-43BC-849F-64C8250722DD}|..\\Graduation.Data\\Graduation.Data.csproj|d:\\graduation\\back_end\\graduation.data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F776431-95B6-4CB2-93BB-1C2D55A5A29F}|..\\Graduation.Service\\Graduation.Service.csproj|d:\\graduation\\back_end\\graduation.service\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64C55689-65AD-43C8-9407-BE03DEFCB2C1}|..\\Graduation.Infrustructure\\Graduation.Infrustructure.csproj|d:\\graduation\\back_end\\graduation.infrustructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F026B1E-2661-4035-A9B2-CED8A88ABA2E}|..\\Graduation.Core\\Graduation.Core.csproj|d:\\graduation\\back_end\\graduation.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.Data\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\Graduation.Data\\Class1.cs",
+              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.Data\\Class1.cs",
+              "RelativeToolTip": "..\\Graduation.Data\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T11:17:40.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.Service\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\Graduation.Service\\Class1.cs",
+              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.Service\\Class1.cs",
+              "RelativeToolTip": "..\\Graduation.Service\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T11:17:15.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.Infrustructure\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\Graduation.Infrustructure\\Class1.cs",
+              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.Infrustructure\\Class1.cs",
+              "RelativeToolTip": "..\\Graduation.Infrustructure\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T11:16:39.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.Core\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\Graduation.Core\\Class1.cs",
+              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.Core\\Class1.cs",
+              "RelativeToolTip": "..\\Graduation.Core\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T11:15:25.058Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
