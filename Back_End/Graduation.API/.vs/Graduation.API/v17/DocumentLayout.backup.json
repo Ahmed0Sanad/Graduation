@@ -1,7 +1,57 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Graduation\\Back_End\\Graduation.API\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B2BC0FE7-9C6F-4B12-964A-2AC8602F7A6D}|Graduation.API.csproj|d:\\graduation\\back_end\\graduation.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2BC0FE7-9C6F-4B12-964A-2AC8602F7A6D}|Graduation.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F776431-95B6-4CB2-93BB-1C2D55A5A29F}|..\\Graduation.Service\\Graduation.Service.csproj|d:\\graduation\\back_end\\graduation.service\\moduleservicedependences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F026B1E-2661-4035-A9B2-CED8A88ABA2E}|..\\Graduation.Core\\Graduation.Core.csproj|d:\\graduation\\back_end\\graduation.core\\features\\authentication\\commands\\models\\signincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2BC0FE7-9C6F-4B12-964A-2AC8602F7A6D}|Graduation.API.csproj|d:\\graduation\\back_end\\graduation.api\\controllers\\applicationusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2BC0FE7-9C6F-4B12-964A-2AC8602F7A6D}|Graduation.API.csproj|solutionrelative:controllers\\applicationusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F026B1E-2661-4035-A9B2-CED8A88ABA2E}|..\\Graduation.Core\\Graduation.Core.csproj|d:\\graduation\\back_end\\graduation.core\\modulecoredependences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2BC0FE7-9C6F-4B12-964A-2AC8602F7A6D}|Graduation.API.csproj|d:\\graduation\\back_end\\graduation.api\\controllers\\appcontrollerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2BC0FE7-9C6F-4B12-964A-2AC8602F7A6D}|Graduation.API.csproj|solutionrelative:controllers\\appcontrollerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F026B1E-2661-4035-A9B2-CED8A88ABA2E}|..\\Graduation.Core\\Graduation.Core.csproj|d:\\graduation\\back_end\\graduation.core\\resources\\sharedresources.ar.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F026B1E-2661-4035-A9B2-CED8A88ABA2E}|..\\Graduation.Core\\Graduation.Core.csproj|d:\\graduation\\back_end\\graduation.core\\resources\\sharedresources.en.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F026B1E-2661-4035-A9B2-CED8A88ABA2E}|..\\Graduation.Core\\Graduation.Core.csproj|d:\\graduation\\back_end\\graduation.core\\features\\applicationuser\\commands\\handlers\\usercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F026B1E-2661-4035-A9B2-CED8A88ABA2E}|..\\Graduation.Core\\Graduation.Core.csproj|d:\\graduation\\back_end\\graduation.core\\resources\\sharedresourceskeys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F026B1E-2661-4035-A9B2-CED8A88ABA2E}|..\\Graduation.Core\\Graduation.Core.csproj|d:\\graduation\\back_end\\graduation.core\\resources\\sharedresources.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{733E8DF9-992D-43BC-849F-64C8250722DD}|..\\Graduation.Data\\Graduation.Data.csproj|d:\\graduation\\back_end\\graduation.data\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F026B1E-2661-4035-A9B2-CED8A88ABA2E}|..\\Graduation.Core\\Graduation.Core.csproj|d:\\graduation\\back_end\\graduation.core\\bases\\responsehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64C55689-65AD-43C8-9407-BE03DEFCB2C1}|..\\Graduation.Infrustructure\\Graduation.Infrustructure.csproj|d:\\graduation\\back_end\\graduation.infrustructure\\modulerepositoriesdependences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2BC0FE7-9C6F-4B12-964A-2AC8602F7A6D}|Graduation.API.csproj|d:\\graduation\\back_end\\graduation.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B2BC0FE7-9C6F-4B12-964A-2AC8602F7A6D}|Graduation.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +59,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +72,199 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SharedResources.ar.resx",
+              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.Core\\Resources\\SharedResources.ar.resx",
+              "RelativeDocumentMoniker": "..\\Graduation.Core\\Resources\\SharedResources.ar.resx",
+              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.Core\\Resources\\SharedResources.ar.resx",
+              "RelativeToolTip": "..\\Graduation.Core\\Resources\\SharedResources.ar.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-08-16T17:32:35.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAwHQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T17:16:58.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppControllerBase.cs",
+              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.API\\Controllers\\AppControllerBase.cs",
+              "RelativeDocumentMoniker": "Controllers\\AppControllerBase.cs",
+              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.API\\Controllers\\AppControllerBase.cs",
+              "RelativeToolTip": "Controllers\\AppControllerBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T15:57:45.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationUserController.cs",
+              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.API\\Controllers\\ApplicationUserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ApplicationUserController.cs",
+              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.API\\Controllers\\ApplicationUserController.cs",
+              "RelativeToolTip": "Controllers\\ApplicationUserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T15:56:27.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserCommandHandler.cs",
+              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.Core\\Features\\ApplicationUser\\Commands\\Handlers\\UserCommandHandler.cs",
+              "RelativeDocumentMoniker": "..\\Graduation.Core\\Features\\ApplicationUser\\Commands\\Handlers\\UserCommandHandler.cs",
+              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.Core\\Features\\ApplicationUser\\Commands\\Handlers\\UserCommandHandler.cs",
+              "RelativeToolTip": "..\\Graduation.Core\\Features\\ApplicationUser\\Commands\\Handlers\\UserCommandHandler.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAYwA0AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T17:30:15.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ModuleServiceDependences.cs",
+              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.Service\\ModuleServiceDependences.cs",
+              "RelativeDocumentMoniker": "..\\Graduation.Service\\ModuleServiceDependences.cs",
+              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.Service\\ModuleServiceDependences.cs",
+              "RelativeToolTip": "..\\Graduation.Service\\ModuleServiceDependences.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAuwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T17:16:26.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SharedResources.en.resx",
+              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.Core\\Resources\\SharedResources.en.resx",
+              "RelativeDocumentMoniker": "..\\Graduation.Core\\Resources\\SharedResources.en.resx",
+              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.Core\\Resources\\SharedResources.en.resx",
+              "RelativeToolTip": "..\\Graduation.Core\\Resources\\SharedResources.en.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-08-16T17:32:38.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SignInCommand.cs",
+              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.Core\\Features\\Authentication\\Commands\\Models\\SignInCommand.cs",
+              "RelativeDocumentMoniker": "..\\Graduation.Core\\Features\\Authentication\\Commands\\Models\\SignInCommand.cs",
+              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.Core\\Features\\Authentication\\Commands\\Models\\SignInCommand.cs",
+              "RelativeToolTip": "..\\Graduation.Core\\Features\\Authentication\\Commands\\Models\\SignInCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T17:57:38.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ModuleCoreDependences.cs",
+              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.Core\\ModuleCoreDependences.cs",
+              "RelativeDocumentMoniker": "..\\Graduation.Core\\ModuleCoreDependences.cs",
+              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.Core\\ModuleCoreDependences.cs",
+              "RelativeToolTip": "..\\Graduation.Core\\ModuleCoreDependences.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAArwBkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T17:38:03.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SharedResourcesKeys.cs",
+              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.Core\\Resources\\SharedResourcesKeys.cs",
+              "RelativeDocumentMoniker": "..\\Graduation.Core\\Resources\\SharedResourcesKeys.cs",
+              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.Core\\Resources\\SharedResourcesKeys.cs",
+              "RelativeToolTip": "..\\Graduation.Core\\Resources\\SharedResourcesKeys.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAwAYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T17:32:23.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SharedResources.cs",
+              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.Core\\Resources\\SharedResources.cs",
+              "RelativeDocumentMoniker": "..\\Graduation.Core\\Resources\\SharedResources.cs",
+              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.Core\\Resources\\SharedResources.cs",
+              "RelativeToolTip": "..\\Graduation.Core\\Resources\\SharedResources.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T17:32:11.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.Data\\Entities\\AppUser.cs",
+              "RelativeDocumentMoniker": "..\\Graduation.Data\\Entities\\AppUser.cs",
+              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.Data\\Entities\\AppUser.cs",
+              "RelativeToolTip": "..\\Graduation.Data\\Entities\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T17:20:31.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ModuleRepositoriesDependences.cs",
+              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.Infrustructure\\ModuleRepositoriesDependences.cs",
+              "RelativeDocumentMoniker": "..\\Graduation.Infrustructure\\ModuleRepositoriesDependences.cs",
+              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.Infrustructure\\ModuleRepositoriesDependences.cs",
+              "RelativeToolTip": "..\\Graduation.Infrustructure\\ModuleRepositoriesDependences.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T17:16:35.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ResponseHandler.cs",
+              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.Core\\Bases\\ResponseHandler.cs",
+              "RelativeDocumentMoniker": "..\\Graduation.Core\\Bases\\ResponseHandler.cs",
+              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.Core\\Bases\\ResponseHandler.cs",
+              "RelativeToolTip": "..\\Graduation.Core\\Bases\\ResponseHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T16:00:06.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.API\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.API\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-16T15:56:21.2Z",
+              "EditorCaption": ""
             }
           ]
         },

@@ -1,0 +1,13 @@
+D:\Graduation\Back_End\Graduation.Data\bin\Debug\net9.0\Graduation.Data.deps.json
+D:\Graduation\Back_End\Graduation.Data\bin\Debug\net9.0\Graduation.Data.dll
+D:\Graduation\Back_End\Graduation.Data\bin\Debug\net9.0\Graduation.Data.pdb
+D:\Graduation\Back_End\Graduation.Data\obj\Debug\net9.0\Graduation.Data.csproj.AssemblyReference.cache
+D:\Graduation\Back_End\Graduation.Data\obj\Debug\net9.0\Graduation.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Graduation\Back_End\Graduation.Data\obj\Debug\net9.0\Graduation.Data.AssemblyInfoInputs.cache
+D:\Graduation\Back_End\Graduation.Data\obj\Debug\net9.0\Graduation.Data.AssemblyInfo.cs
+D:\Graduation\Back_End\Graduation.Data\obj\Debug\net9.0\Graduation.Data.csproj.CoreCompileInputs.cache
+D:\Graduation\Back_End\Graduation.Data\obj\Debug\net9.0\Graduation.Data.sourcelink.json
+D:\Graduation\Back_End\Graduation.Data\obj\Debug\net9.0\Graduation.Data.dll
+D:\Graduation\Back_End\Graduation.Data\obj\Debug\net9.0\refint\Graduation.Data.dll
+D:\Graduation\Back_End\Graduation.Data\obj\Debug\net9.0\Graduation.Data.pdb
+D:\Graduation\Back_End\Graduation.Data\obj\Debug\net9.0\ref\Graduation.Data.dll
