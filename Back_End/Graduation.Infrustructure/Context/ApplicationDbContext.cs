@@ -1,4 +1,5 @@
 ﻿using Data.Entities;
+using Graduation.Data.Entities.Identity;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
@@ -23,6 +24,7 @@ namespace Graduation.Infrustructure.Context
         // Define DbSet properties for your entities
         //public DbSet <AppUser> appUsers { get; set; }
         public DbSet<Student> Students { get; set; }
+        public DbSet<UserRefreshToken> UserRefreshTokens { get; set; }
         // public DbSet<OtherEntity> OtherEntities { get; set; }
     }
 }

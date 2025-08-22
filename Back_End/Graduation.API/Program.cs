@@ -2,12 +2,16 @@
 using Data.Helper;
 using Graduation.Core;
 using Graduation.Core.MiddleWares;
+using Graduation.Data.Helper;
 using Graduation.Infrustructure;
 using Graduation.Infrustructure.Context;
 using Graduation.Service;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Localization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Infrastructure;
+using Microsoft.AspNetCore.Mvc.Routing;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Options;
@@ -33,6 +37,7 @@ namespace Graduation.API
     
             });
             builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("jwtSettings"));
+            builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("MailSettings"));
             builder.Services.CoreDependences();
             builder.Services.ServiceDependences();
             builder.Services.RepositoryDependences(builder.Configuration);
@@ -113,6 +118,14 @@ namespace Graduation.API
 
 
             #endregion
+
+            builder.Services.AddSingleton<IActionContextAccessor, ActionContextAccessor>();
+            builder.Services.AddTransient<IUrlHelper>(x =>
+            {
+                var actionContext = x.GetRequiredService<IActionContextAccessor>().ActionContext;
+                var factory = x.GetRequiredService<IUrlHelperFactory>();
+                return factory.GetUrlHelper(actionContext);
+            });
 
 
             var app = builder.Build();

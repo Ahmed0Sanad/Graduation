@@ -55,7 +55,7 @@ namespace Graduation.Infrustructure.Repositories
             return await _appDbContext.Set<T>().FindAsync(id);
         }
 
-        public async Task<T?> GetByIdSpecAsync(Specification<T> spec)
+        public async Task<T?> GetFirstOrDefaultSpecAsync(Specification<T> spec)
         {
             return await BaseQuary(spec).FirstOrDefaultAsync();
         }

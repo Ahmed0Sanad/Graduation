@@ -20,6 +20,8 @@ namespace Graduation.Service
         {
             services.AddTransient<IStudentService, StudentService>();
             services.AddTransient<IAuthenticationService, AuthenticationService>();
+            services.AddTransient<IApplicationUserService, ApplicationUserService>();
+            services.AddTransient<IEmailService, EmailService>();
 
 
 

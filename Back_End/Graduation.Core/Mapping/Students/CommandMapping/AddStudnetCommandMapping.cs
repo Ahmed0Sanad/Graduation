@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Data.Entities;
 using Graduation.Core.Features.Students.Commands.Models;
 using System;
 using System.Collections.Generic;
@@ -12,7 +13,7 @@ namespace Graduation.Core.Mapping.Students
     {
         public void AddStudentCommandMapping()
         {
-            CreateMap<AddStudentCommand, Data.Entities.Student>();
+            CreateMap<AddStudentCommand, Student>();
              
         }
     }

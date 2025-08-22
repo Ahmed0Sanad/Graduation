@@ -1,6 +1,6 @@
 ﻿using Graduation.Core.Features.ApplicationUser.Commands.Models;
 using Graduation.Core.Features.Students.Quaries.Results;
-using Data.Entities;
+using Graduation.Data.Entities.Identity;
 
 namespace Graduation.Core.Mapping.ApplicationUser
 {

@@ -3,6 +3,28 @@
   "WorkspaceRootPath": "D:\\Graduation\\Back_End\\Graduation.API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2F776431-95B6-4CB2-93BB-1C2D55A5A29F}|..\\Graduation.Service\\Graduation.Service.csproj|d:\\graduation\\back_end\\graduation.service\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F776431-95B6-4CB2-93BB-1C2D55A5A29F}|..\\Graduation.Service\\Graduation.Service.csproj|d:\\graduation\\back_end\\graduation.service\\abstract\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F026B1E-2661-4035-A9B2-CED8A88ABA2E}|..\\Graduation.Core\\Graduation.Core.csproj|d:\\graduation\\back_end\\graduation.core\\features\\authentication\\queries\\handles\\authenticationqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2BC0FE7-9C6F-4B12-964A-2AC8602F7A6D}|Graduation.API.csproj|d:\\graduation\\back_end\\graduation.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2BC0FE7-9C6F-4B12-964A-2AC8602F7A6D}|Graduation.API.csproj|solutionrelative:controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F776431-95B6-4CB2-93BB-1C2D55A5A29F}|..\\Graduation.Service\\Graduation.Service.csproj|d:\\graduation\\back_end\\graduation.service\\services\\applicationuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F026B1E-2661-4035-A9B2-CED8A88ABA2E}|..\\Graduation.Core\\Graduation.Core.csproj|d:\\graduation\\back_end\\graduation.core\\features\\applicationuser\\commands\\handlers\\usercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F026B1E-2661-4035-A9B2-CED8A88ABA2E}|..\\Graduation.Core\\Graduation.Core.csproj|d:\\graduation\\back_end\\graduation.core\\features\\authentication\\queries\\models\\confirmemailquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B2BC0FE7-9C6F-4B12-964A-2AC8602F7A6D}|Graduation.API.csproj|d:\\graduation\\back_end\\graduation.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2BC0FE7-9C6F-4B12-964A-2AC8602F7A6D}|Graduation.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -10,46 +32,29 @@
       "AbsoluteMoniker": "D:0:0:{2F776431-95B6-4CB2-93BB-1C2D55A5A29F}|..\\Graduation.Service\\Graduation.Service.csproj|d:\\graduation\\back_end\\graduation.service\\moduleservicedependences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F026B1E-2661-4035-A9B2-CED8A88ABA2E}|..\\Graduation.Core\\Graduation.Core.csproj|d:\\graduation\\back_end\\graduation.core\\features\\authentication\\commands\\models\\signincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F776431-95B6-4CB2-93BB-1C2D55A5A29F}|..\\Graduation.Service\\Graduation.Service.csproj|d:\\graduation\\back_end\\graduation.service\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2BC0FE7-9C6F-4B12-964A-2AC8602F7A6D}|Graduation.API.csproj|d:\\graduation\\back_end\\graduation.api\\controllers\\applicationusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2BC0FE7-9C6F-4B12-964A-2AC8602F7A6D}|Graduation.API.csproj|solutionrelative:controllers\\applicationusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F776431-95B6-4CB2-93BB-1C2D55A5A29F}|..\\Graduation.Service\\Graduation.Service.csproj|d:\\graduation\\back_end\\graduation.service\\abstract\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F026B1E-2661-4035-A9B2-CED8A88ABA2E}|..\\Graduation.Core\\Graduation.Core.csproj|d:\\graduation\\back_end\\graduation.core\\modulecoredependences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{733E8DF9-992D-43BC-849F-64C8250722DD}|..\\Graduation.Data\\Graduation.Data.csproj|d:\\graduation\\back_end\\graduation.data\\commons\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2BC0FE7-9C6F-4B12-964A-2AC8602F7A6D}|Graduation.API.csproj|d:\\graduation\\back_end\\graduation.api\\controllers\\appcontrollerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2BC0FE7-9C6F-4B12-964A-2AC8602F7A6D}|Graduation.API.csproj|solutionrelative:controllers\\appcontrollerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F026B1E-2661-4035-A9B2-CED8A88ABA2E}|..\\Graduation.Core\\Graduation.Core.csproj|d:\\graduation\\back_end\\graduation.core\\resources\\sharedresources.ar.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F026B1E-2661-4035-A9B2-CED8A88ABA2E}|..\\Graduation.Core\\Graduation.Core.csproj|d:\\graduation\\back_end\\graduation.core\\resources\\sharedresources.en.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F026B1E-2661-4035-A9B2-CED8A88ABA2E}|..\\Graduation.Core\\Graduation.Core.csproj|d:\\graduation\\back_end\\graduation.core\\features\\applicationuser\\commands\\handlers\\usercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F026B1E-2661-4035-A9B2-CED8A88ABA2E}|..\\Graduation.Core\\Graduation.Core.csproj|d:\\graduation\\back_end\\graduation.core\\resources\\sharedresourceskeys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F026B1E-2661-4035-A9B2-CED8A88ABA2E}|..\\Graduation.Core\\Graduation.Core.csproj|d:\\graduation\\back_end\\graduation.core\\resources\\sharedresources.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{733E8DF9-992D-43BC-849F-64C8250722DD}|..\\Graduation.Data\\Graduation.Data.csproj|d:\\graduation\\back_end\\graduation.data\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F026B1E-2661-4035-A9B2-CED8A88ABA2E}|..\\Graduation.Core\\Graduation.Core.csproj|d:\\graduation\\back_end\\graduation.core\\bases\\responsehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64C55689-65AD-43C8-9407-BE03DEFCB2C1}|..\\Graduation.Infrustructure\\Graduation.Infrustructure.csproj|d:\\graduation\\back_end\\graduation.infrustructure\\modulerepositoriesdependences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{733E8DF9-992D-43BC-849F-64C8250722DD}|..\\Graduation.Data\\Graduation.Data.csproj|d:\\graduation\\back_end\\graduation.data\\helper\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B2BC0FE7-9C6F-4B12-964A-2AC8602F7A6D}|Graduation.API.csproj|d:\\graduation\\back_end\\graduation.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{B2BC0FE7-9C6F-4B12-964A-2AC8602F7A6D}|Graduation.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F026B1E-2661-4035-A9B2-CED8A88ABA2E}|..\\Graduation.Core\\Graduation.Core.csproj|d:\\graduation\\back_end\\graduation.core\\features\\authentication\\commands\\handlers\\handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F026B1E-2661-4035-A9B2-CED8A88ABA2E}|..\\Graduation.Core\\Graduation.Core.csproj|d:\\graduation\\back_end\\graduation.core\\features\\authentication\\queries\\models\\authorizeuserquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64C55689-65AD-43C8-9407-BE03DEFCB2C1}|..\\Graduation.Infrustructure\\Graduation.Infrustructure.csproj|d:\\graduation\\back_end\\graduation.infrustructure\\modulerepositoriesdependences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -59,7 +64,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -76,194 +81,216 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "SharedResources.ar.resx",
-              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.Core\\Resources\\SharedResources.ar.resx",
-              "RelativeDocumentMoniker": "..\\Graduation.Core\\Resources\\SharedResources.ar.resx",
-              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.Core\\Resources\\SharedResources.ar.resx",
-              "RelativeToolTip": "..\\Graduation.Core\\Resources\\SharedResources.ar.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-08-16T17:32:35.231Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.API\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.API\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAwHQAAAAAAAAAAAAAAA==",
+              "Title": "ConfirmEmailQuery.cs",
+              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.Core\\Features\\Authentication\\Queries\\Models\\ConfirmEmailQuery.cs",
+              "RelativeDocumentMoniker": "..\\Graduation.Core\\Features\\Authentication\\Queries\\Models\\ConfirmEmailQuery.cs",
+              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.Core\\Features\\Authentication\\Queries\\Models\\ConfirmEmailQuery.cs",
+              "RelativeToolTip": "..\\Graduation.Core\\Features\\Authentication\\Queries\\Models\\ConfirmEmailQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T17:16:58.723Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AppControllerBase.cs",
-              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.API\\Controllers\\AppControllerBase.cs",
-              "RelativeDocumentMoniker": "Controllers\\AppControllerBase.cs",
-              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.API\\Controllers\\AppControllerBase.cs",
-              "RelativeToolTip": "Controllers\\AppControllerBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T15:57:45.907Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApplicationUserController.cs",
-              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.API\\Controllers\\ApplicationUserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ApplicationUserController.cs",
-              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.API\\Controllers\\ApplicationUserController.cs",
-              "RelativeToolTip": "Controllers\\ApplicationUserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T15:56:27.415Z",
+              "WhenOpened": "2025-08-22T23:08:36.889Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "UserCommandHandler.cs",
-              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.Core\\Features\\ApplicationUser\\Commands\\Handlers\\UserCommandHandler.cs",
-              "RelativeDocumentMoniker": "..\\Graduation.Core\\Features\\ApplicationUser\\Commands\\Handlers\\UserCommandHandler.cs",
-              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.Core\\Features\\ApplicationUser\\Commands\\Handlers\\UserCommandHandler.cs",
-              "RelativeToolTip": "..\\Graduation.Core\\Features\\ApplicationUser\\Commands\\Handlers\\UserCommandHandler.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAYwA0AAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T17:30:15.443Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "ModuleServiceDependences.cs",
               "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.Service\\ModuleServiceDependences.cs",
               "RelativeDocumentMoniker": "..\\Graduation.Service\\ModuleServiceDependences.cs",
               "ToolTip": "D:\\Graduation\\Back_End\\Graduation.Service\\ModuleServiceDependences.cs",
               "RelativeToolTip": "..\\Graduation.Service\\ModuleServiceDependences.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAuwBYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAqwBcAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T17:16:26.712Z",
+              "WhenOpened": "2025-08-22T22:56:26.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IAuthenticationService.cs",
+              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.Service\\Abstract\\IAuthenticationService.cs",
+              "RelativeDocumentMoniker": "..\\Graduation.Service\\Abstract\\IAuthenticationService.cs",
+              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.Service\\Abstract\\IAuthenticationService.cs",
+              "RelativeToolTip": "..\\Graduation.Service\\Abstract\\IAuthenticationService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAlwBIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T22:26:21.7Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "SharedResources.en.resx",
-              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.Core\\Resources\\SharedResources.en.resx",
-              "RelativeDocumentMoniker": "..\\Graduation.Core\\Resources\\SharedResources.en.resx",
-              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.Core\\Resources\\SharedResources.en.resx",
-              "RelativeToolTip": "..\\Graduation.Core\\Resources\\SharedResources.en.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-08-16T17:32:38.078Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SignInCommand.cs",
-              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.Core\\Features\\Authentication\\Commands\\Models\\SignInCommand.cs",
-              "RelativeDocumentMoniker": "..\\Graduation.Core\\Features\\Authentication\\Commands\\Models\\SignInCommand.cs",
-              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.Core\\Features\\Authentication\\Commands\\Models\\SignInCommand.cs",
-              "RelativeToolTip": "..\\Graduation.Core\\Features\\Authentication\\Commands\\Models\\SignInCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAHAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH8AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T17:57:38.611Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ModuleCoreDependences.cs",
-              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.Core\\ModuleCoreDependences.cs",
-              "RelativeDocumentMoniker": "..\\Graduation.Core\\ModuleCoreDependences.cs",
-              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.Core\\ModuleCoreDependences.cs",
-              "RelativeToolTip": "..\\Graduation.Core\\ModuleCoreDependences.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAArwBkAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T17:38:03.451Z",
+              "WhenOpened": "2025-08-22T16:19:46.841Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "SharedResourcesKeys.cs",
-              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.Core\\Resources\\SharedResourcesKeys.cs",
-              "RelativeDocumentMoniker": "..\\Graduation.Core\\Resources\\SharedResourcesKeys.cs",
-              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.Core\\Resources\\SharedResourcesKeys.cs",
-              "RelativeToolTip": "..\\Graduation.Core\\Resources\\SharedResourcesKeys.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAAwAYAAAAUAAAAAAAAAA==",
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.Service\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "..\\Graduation.Service\\Services\\EmailService.cs",
+              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.Service\\Services\\EmailService.cs",
+              "RelativeToolTip": "..\\Graduation.Service\\Services\\EmailService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwBAAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T17:32:23.502Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "SharedResources.cs",
-              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.Core\\Resources\\SharedResources.cs",
-              "RelativeDocumentMoniker": "..\\Graduation.Core\\Resources\\SharedResources.cs",
-              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.Core\\Resources\\SharedResources.cs",
-              "RelativeToolTip": "..\\Graduation.Core\\Resources\\SharedResources.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T17:32:11.176Z",
+              "WhenOpened": "2025-08-22T16:18:10.341Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "AppUser.cs",
-              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.Data\\Entities\\AppUser.cs",
-              "RelativeDocumentMoniker": "..\\Graduation.Data\\Entities\\AppUser.cs",
-              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.Data\\Entities\\AppUser.cs",
-              "RelativeToolTip": "..\\Graduation.Data\\Entities\\AppUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Title": "Email.cs",
+              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.Data\\Commons\\Email.cs",
+              "RelativeDocumentMoniker": "..\\Graduation.Data\\Commons\\Email.cs",
+              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.Data\\Commons\\Email.cs",
+              "RelativeToolTip": "..\\Graduation.Data\\Commons\\Email.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T17:20:31.966Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T16:14:48.213Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ModuleRepositoriesDependences.cs",
-              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.Infrustructure\\ModuleRepositoriesDependences.cs",
-              "RelativeDocumentMoniker": "..\\Graduation.Infrustructure\\ModuleRepositoriesDependences.cs",
-              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.Infrustructure\\ModuleRepositoriesDependences.cs",
-              "RelativeToolTip": "..\\Graduation.Infrustructure\\ModuleRepositoriesDependences.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAABPAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.Service\\Abstract\\IEmailService.cs",
+              "RelativeDocumentMoniker": "..\\Graduation.Service\\Abstract\\IEmailService.cs",
+              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.Service\\Abstract\\IEmailService.cs",
+              "RelativeToolTip": "..\\Graduation.Service\\Abstract\\IEmailService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T17:16:35.536Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T16:11:41.634Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "ResponseHandler.cs",
-              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.Core\\Bases\\ResponseHandler.cs",
-              "RelativeDocumentMoniker": "..\\Graduation.Core\\Bases\\ResponseHandler.cs",
-              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.Core\\Bases\\ResponseHandler.cs",
-              "RelativeToolTip": "..\\Graduation.Core\\Bases\\ResponseHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "EmailSettings.cs",
+              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.Data\\Helper\\EmailSettings.cs",
+              "RelativeDocumentMoniker": "..\\Graduation.Data\\Helper\\EmailSettings.cs",
+              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.Data\\Helper\\EmailSettings.cs",
+              "RelativeToolTip": "..\\Graduation.Data\\Helper\\EmailSettings.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T16:00:06.4Z",
+              "WhenOpened": "2025-08-22T16:07:18.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationUserService.cs",
+              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.Service\\Services\\ApplicationUserService.cs",
+              "RelativeDocumentMoniker": "..\\Graduation.Service\\Services\\ApplicationUserService.cs",
+              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.Service\\Services\\ApplicationUserService.cs",
+              "RelativeToolTip": "..\\Graduation.Service\\Services\\ApplicationUserService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAcwCEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T15:59:53.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserCommandHandler.cs",
+              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.Core\\Features\\ApplicationUser\\Commands\\Handlers\\UserCommandHandler.cs",
+              "RelativeDocumentMoniker": "..\\Graduation.Core\\Features\\ApplicationUser\\Commands\\Handlers\\UserCommandHandler.cs",
+              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.Core\\Features\\ApplicationUser\\Commands\\Handlers\\UserCommandHandler.cs",
+              "RelativeToolTip": "..\\Graduation.Core\\Features\\ApplicationUser\\Commands\\Handlers\\UserCommandHandler.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAQwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T15:55:00.518Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "Handler.cs",
+              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.Core\\Features\\Authentication\\Commands\\Handlers\\Handler.cs",
+              "RelativeDocumentMoniker": "..\\Graduation.Core\\Features\\Authentication\\Commands\\Handlers\\Handler.cs",
+              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.Core\\Features\\Authentication\\Commands\\Handlers\\Handler.cs",
+              "RelativeToolTip": "..\\Graduation.Core\\Features\\Authentication\\Commands\\Handlers\\Handler.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T15:30:31.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ModuleRepositoriesDependences.cs",
+              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.Infrustructure\\ModuleRepositoriesDependences.cs",
+              "RelativeDocumentMoniker": "..\\Graduation.Infrustructure\\ModuleRepositoriesDependences.cs",
+              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.Infrustructure\\ModuleRepositoriesDependences.cs",
+              "RelativeToolTip": "..\\Graduation.Infrustructure\\ModuleRepositoriesDependences.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T15:26:40.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.API\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "D:\\Graduation\\Back_End\\Graduation.API\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-16T15:56:21.2Z",
+              "WhenOpened": "2025-08-22T15:26:26.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.Service\\Services\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "..\\Graduation.Service\\Services\\AuthenticationService.cs",
+              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.Service\\Services\\AuthenticationService.cs",
+              "RelativeToolTip": "..\\Graduation.Service\\Services\\AuthenticationService.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAiwHsAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T15:11:13.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthenticationQueryHandler.cs",
+              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.Core\\Features\\Authentication\\Queries\\Handles\\AuthenticationQueryHandler.cs",
+              "RelativeDocumentMoniker": "..\\Graduation.Core\\Features\\Authentication\\Queries\\Handles\\AuthenticationQueryHandler.cs",
+              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.Core\\Features\\Authentication\\Queries\\Handles\\AuthenticationQueryHandler.cs",
+              "RelativeToolTip": "..\\Graduation.Core\\Features\\Authentication\\Queries\\Handles\\AuthenticationQueryHandler.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwCwAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T15:06:46.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AuthorizeUserQuery.cs",
+              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.Core\\Features\\Authentication\\Queries\\Models\\AuthorizeUserQuery.cs",
+              "RelativeDocumentMoniker": "..\\Graduation.Core\\Features\\Authentication\\Queries\\Models\\AuthorizeUserQuery.cs",
+              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.Core\\Features\\Authentication\\Queries\\Models\\AuthorizeUserQuery.cs",
+              "RelativeToolTip": "..\\Graduation.Core\\Features\\Authentication\\Queries\\Models\\AuthorizeUserQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T15:06:13.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "D:\\Graduation\\Back_End\\Graduation.API\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthenticationController.cs",
+              "ToolTip": "D:\\Graduation\\Back_End\\Graduation.API\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "Controllers\\AuthenticationController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAYwCIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T14:52:51.291Z",
               "EditorCaption": ""
             }
           ]

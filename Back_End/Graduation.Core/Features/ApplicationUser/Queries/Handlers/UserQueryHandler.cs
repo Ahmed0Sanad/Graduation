@@ -7,7 +7,7 @@ using Graduation.Core.Features.ApplicationUser.Queries.Models;
 using Graduation.Core.Features.ApplicationUser.Queries.Results;
 using Graduation.Core.Resources;
 using Graduation.Core.Warppars;
-using Data.Entities;
+using Graduation.Data.Entities.Identity;
 
 namespace Graduation.Core.Features.ApplicationUser.Queries.Handlers
 {

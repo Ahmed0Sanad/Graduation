@@ -1,4 +1,5 @@
 ﻿using Data.Entities;
+using Data.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,19 +17,19 @@ namespace Graduation.Infrustructure.Specifications.StudentSpecifications
             #region sorting
             if (parm.sort != null)
             {
-                if (parm.sort == "Name" && parm.orderBy == Data.Enums.OrderByOrdring.Ascending)
+                if (parm.sort == "Name" && parm.orderBy == OrderByOrdring.Ascending)
                 {
                     OrderBy = x => x.Name;
                 }
-                else if (parm.sort == "Name" && parm.orderBy == Data.Enums.OrderByOrdring.Descending)
+                else if (parm.sort == "Name" && parm.orderBy == OrderByOrdring.Descending)
                 {
                     OrderByDesc = x => x.Name;
                 }
-                else if (parm.sort == "Age" && parm.orderBy == Data.Enums.OrderByOrdring.Ascending)
+                else if (parm.sort == "Age" && parm.orderBy == OrderByOrdring.Ascending)
                 {
                     OrderBy = x => x.Age;
                 }
-                else if (parm.sort == "Age" && parm.orderBy == Data.Enums.OrderByOrdring.Descending)
+                else if (parm.sort == "Age" && parm.orderBy == OrderByOrdring.Descending)
                 {
                     OrderByDesc = x => x.Age;
                 }

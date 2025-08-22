@@ -2,13 +2,13 @@
 using Graduation.Infrustructure.Context;
 using Graduation.Infrustructure.Repositories;
 using Graduation.Infrustructure.UnitOfWorks;
-using Data.Entities;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using System.Runtime.CompilerServices;
+using Graduation.Data.Entities.Identity;
 
 namespace Graduation.Infrustructure
 {
@@ -53,14 +53,15 @@ namespace Graduation.Infrustructure
             {
                 option.TokenValidationParameters = new TokenValidationParameters()
                 {
+                    ValidateAudience = false, // mobile and web can use the same token
                     ValidateIssuer = bool.Parse(Configuration["jwtSettings:ValidateIssuer"]),
                     ValidIssuer = Configuration["jwtSettings:Issuer"],
-                    ValidateAudience = bool.Parse(Configuration["jwtSettings:ValidateAudience"]),
+                    //ValidateAudience = bool.Parse(Configuration["jwtSettings:ValidateAudience"]),// web need token with web audience and mobile need token with mobile audience
                     ValidAudience = Configuration["jwtSettings:Audience"],
                     ValidateIssuerSigningKey = bool.Parse(Configuration["jwtSettings:ValidateIssuerSigningKey"]),
                     IssuerSigningKey = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes(Configuration["jwtSettings:Secret"])),
                     ValidateLifetime = bool.Parse(Configuration["jwtSettings:ValidateLifetime"]),
-                    ClockSkew = TimeSpan.FromMinutes(35),
+                    ClockSkew = TimeSpan.FromMinutes(30),
 
                 };
             }

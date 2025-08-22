@@ -7,9 +7,9 @@ using Microsoft.Extensions.Localization;
 using Graduation.Core.Bases;
 using Graduation.Core.Features.ApplicationUser.Commands.Models;
 using Graduation.Core.Resources;
-using Data.Entities;
 //using Data.Entities.Identity;
 using Graduation.Service.Abstract;
+using Graduation.Data.Entities.Identity;
 
 namespace Graduation.Core.Features.ApplicationUser.Commands.Handlers
 {
@@ -24,15 +24,18 @@ namespace Graduation.Core.Features.ApplicationUser.Commands.Handlers
         private readonly IStringLocalizer<SharedResources> _sharedResources;
         private readonly UserManager<AppUser> _userManager;
         private readonly IHttpContextAccessor _httpContextAccessor;
-     //   private readonly IEmailsService _emailsService;
-      //  private readonly IApplicationUserService _applicationUserService;
+        private readonly IApplicationUserService _applicationUserService;
+
+        //   private readonly IEmailsService _emailsService;
+        //  private readonly IApplicationUserService _applicationUserService;
         #endregion
 
         #region Constructors
         public UserCommandHandler(IStringLocalizer<SharedResources> stringLocalizer,
                                   IMapper mapper,
                                   UserManager<AppUser> userManager,
-                                  IHttpContextAccessor httpContextAccessor)
+                                  IHttpContextAccessor httpContextAccessor,
+                                  IApplicationUserService applicationUserService)
                                //   IEmailsService emailsService,
                                  // IApplicationUserService applicationUserService) : base(stringLocalizer)
         {
@@ -40,7 +43,8 @@ namespace Graduation.Core.Features.ApplicationUser.Commands.Handlers
             _sharedResources = stringLocalizer;
             _userManager= userManager;
             _httpContextAccessor = httpContextAccessor;
-          //  _emailsService = emailsService;
+            this._applicationUserService = applicationUserService;
+            //  _emailsService = emailsService;
             //_applicationUserService = applicationUserService;
         }
 
@@ -53,19 +57,9 @@ namespace Graduation.Core.Features.ApplicationUser.Commands.Handlers
         {
             var identityUser =  _mapper.Map<AppUser>(request);
             //Create
-            //var createResult = await _applicationUserService.AddUserAsync(identityUser, request.Password);
-            var createResult = await _userManager.CreateAsync(identityUser, request.Password);
-
-            //switch (createResult)
-            //{
-            //    case "EmailIsExist": return BadRequest<string>(sharedResources[SharedResourcesKeys.EmailIsExist]);
-            //    case "UserNameIsExist": return BadRequest<string>(sharedResources[SharedResourcesKeys.UserNameIsExist]);
-            //    case "ErrorInCreateUser": return BadRequest<string>(sharedResources[SharedResourcesKeys.FaildToAddUser]);
-            //    case "Failed": return BadRequest<string>(sharedResources[SharedResourcesKeys.TryToRegisterAgain]);
-            //    case "Success": return Success<string>("");
-            //    default: return BadRequest<string>(createResult);
-            //}
-            if (createResult.Succeeded) { return Success<string>(""); }
+            var createResult = await _applicationUserService.AddUserAsync(identityUser, request.Password);
+  
+            if (createResult) { return Success<string>(""); }
             return BadRequest<string>(_sharedResources[SharedResourcesKeys.TryToRegisterAgain]);
         }
 

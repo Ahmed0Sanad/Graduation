@@ -1,4 +1,5 @@
 ﻿using Graduation.Core.Features.Authentication.Commands.Models;
+using Graduation.Core.Features.Authentication.Queries.Models;
 using Microsoft.AspNetCore.Components.Routing;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -10,30 +11,30 @@ namespace Graduation.API.Controllers
     {
 
         [HttpPost("SignIn")]
-        public async Task<IActionResult> Create([FromQuery] SignInCommand command)
+        public async Task<IActionResult> Create([FromForm] SignInCommand command)
         {
             var response = await Mediator.Send(command);
             return NewResult(response);
         }
 
-        //[HttpPost("RefreshToken")]
-        //public async Task<IActionResult> RefreshToken([FromForm] RefreshTokenCommand command)
-        //{
-        //    var response = await Mediator.Send(command);
-        //    return NewResult(response);
-        //}
-        //[HttpGet("ValidateToken")]
-        //public async Task<IActionResult> ValidateToken([FromQuery] AuthorizeUserQuery query)
-        //{
-        //    var response = await Mediator.Send(query);
-        //    return NewResult(response);
-        //}
-        //[HttpGet("ConfirmEmail")]
-        //public async Task<IActionResult> ConfirmEmail([FromQuery] ConfirmEmailQuery query)
-        //{
-        //    var response = await Mediator.Send(query);
-        //    return NewResult(response);
-        //}
+        [HttpPost("RefreshToken")]
+        public async Task<IActionResult> RefreshToken([FromForm] RefreshTokenCommand command)
+        {
+            var response = await Mediator.Send(command);
+            return NewResult(response);
+        }
+        [HttpGet("ValidateToken")]
+        public async Task<IActionResult> ValidateToken([FromQuery] AuthorizeUserQuery query)
+        {
+            var response = await Mediator.Send(query);
+            return NewResult(response);
+        }
+        [HttpGet("ConfirmEmail")]
+        public async Task<IActionResult> ConfirmEmail([FromQuery] ConfirmEmailQuery query)
+        {
+            var response = await Mediator.Send(query);
+            return NewResult(response);
+        }
         //[HttpPost("SendResetPasswordCode")]
         //public async Task<IActionResult> SendResetPassword([FromQuery] SendResetPasswordCommand command)
         //{

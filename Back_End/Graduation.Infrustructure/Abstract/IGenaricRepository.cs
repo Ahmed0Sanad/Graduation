@@ -11,7 +11,7 @@ namespace Graduation.Infrustructure.Abstract
 {
     public interface IGenericRepository<T> where T : BaseModel
     {
-        Task<T?> GetByIdSpecAsync(Specification<T> spec);
+        Task<T?> GetFirstOrDefaultSpecAsync(Specification<T> spec);
         Task<IEnumerable<T>> GetAllSpecAsync(Specification<T> spec);
         Task<int> CountSpecAsync(Expression<Func<T, bool>>? Criteria);
         Task<T> GetByIdAsync(int id);
